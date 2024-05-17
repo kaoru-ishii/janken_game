@@ -7,7 +7,7 @@ $hands = ['グー！', 'チョキ！', 'パー！'];
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@ $hands = ['グー！', 'チョキ！', 'パー！'];
 </head>
 
 <body>
-    <h1>課題２：じゃんけん！</h1>
+    <h1>じゃんけん！</h1>
     <h2><?php echo $title; ?></h2>
     <form method="POST" action="result.php">
         <?php foreach($hands as $hand) { ?>
